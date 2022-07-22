@@ -1,0 +1,35 @@
+body {
+    background: $mainColor;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    color:$white;
+    font-family: 'Secular one', sans-serif;
+    text-align:justify;
+}
+
+h1{
+    font-size: $textLg;
+    font-weight: $textBold;
+}
+
+h2{
+    font-size: $textMd;
+    font-weight: $textBold;
+}
+
+h3{
+    font-size: $textSm;
+    font-weight: $textLight;
+}
+
+p{
+    color:$white;
+    font-size: $textSm;
+    font-family: 'Secular one', sans-serif;
+    font-weight: $textLight;
+}

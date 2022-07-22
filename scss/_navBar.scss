@@ -1,0 +1,45 @@
+//nesting 
+
+.nav-bar {
+    background:$mainColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 1%;
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            padding:0 15px 0 20px;
+            a{
+                color:$white;
+                font-family: $fontMain;
+                font-size: $textSm;
+                &:hover{
+                    color:$keyColor;
+                }
+            }
+        }
+    }
+}
+
+.nav-bar {
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    img{
+        width: 20%;
+        padding:10px 0 0 20px;
+    }
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+    
+}

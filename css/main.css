@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.nav-bar {
+  background: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 1%;
+}
+.nav-bar ul {
+  display: flex;
+}
+.nav-bar ul li {
+  list-style: none;
+  padding: 0 15px 0 20px;
+}
+.nav-bar ul li a {
+  color: #F9F5F5;
+  font-family: "Secular one", sans-serif;
+  font-size: 1em;
+}
+.nav-bar ul li a:hover {
+  color: rgb(255, 255, 0);
+}
+
+.nav-bar {
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+}
+.nav-bar img {
+  width: 20%;
+  padding: 10px 0 0 20px;
+}
+.nav-bar ul {
+  display: flex;
+}
+.nav-bar ul li {
+  list-style: none;
+}
+.nav-bar ul li a {
+  text-decoration: none;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: #F9F5F5;
+  font-family: "Secular one", sans-serif;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+p {
+  color: #F9F5F5;
+  font-size: 1em;
+  font-family: "Secular one", sans-serif;
+  font-weight: 300;
+}
+
+.main-1 img {
+  width: 100%;
+}
+
+.main-2 {
+  display: flex;
+  justify-content: center;
+}
+.main-2 img {
+  padding-top: 5%;
+  width: 80%;
+}
+
+.main-position {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.main-3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.main-3 .input {
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+.main-3 .input-email {
+  color: #F9F5F5;
+  width: 100%;
+  font-size: 1em;
+  background: 0;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #F9F5F5;
+}
+.main-3 iframe {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.footer-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+}
+.footer-1 img {
+  width: 15%;
+}
+
+/*# sourceMappingURL=main.css.map */

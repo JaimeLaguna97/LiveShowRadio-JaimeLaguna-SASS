@@ -1,0 +1,9 @@
+.footer-1 {
+    width: $w-100;
+    display: flex;
+    flex-direction: column;
+    font-size: $textSm;
+    img{
+        width: 15%;
+    }
+}

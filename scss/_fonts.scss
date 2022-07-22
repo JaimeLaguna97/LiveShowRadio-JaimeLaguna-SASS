@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+$fontMain:'Secular one', sans-serif;
+
+$textLg:3em;
+$textMd:2em;
+$textSm:1em;
+
+$textBold:500;
+$textRegular:400;
+$textLight:300;
+
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textLeft {
+    text-align: left;
+}

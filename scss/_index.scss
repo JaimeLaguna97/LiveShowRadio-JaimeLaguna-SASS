@@ -1,0 +1,43 @@
+.main-1 {
+    img{
+        width:$w-100;
+    }
+}
+
+.main-2 {
+        display: flex;
+        justify-content: center;
+    img{
+        padding-top: 5%;
+        width: $w-80;
+    }
+}
+
+.main-position {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.main-3 {
+    width: $w-100;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    .input{
+        color:$secondaryColor;
+        font-size: $textSm;
+    }
+    .input-email {
+        color:$white;
+        width: $w-100;
+        font-size:$textSm;
+        background: 0;
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px solid $white;
+    }
+    iframe {
+        width: $w-90;
+        margin-left: 10%;
+    }
+}
+
